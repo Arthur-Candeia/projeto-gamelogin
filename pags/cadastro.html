@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - WarNow</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+</head>
+<body>
+
+    <main>
+        
+        <section class="dados">
+            <h1>CADASTRE-SE</h1>
+
+            <form action="cadastro.php" method="POST" autocomplete="off">
+                <label for="iname"><span>Nome </span>
+                    <div><input type="text" name="name" id="iname" required placeholder="Name" minlength="3" maxlength="15"></div>
+                </label>
+                
+                <label for="isobrenome"><span>Sobrenome </span>
+                    <div><input type="text" name="sobrenome" id="isobrenome" required placeholder="Yours" minlength="3" maxlength="15"></div>
+                </label>
+
+                <label for="iemail"><span>E-mail </span>
+                    <div><input type="email" name="email" id="iemail" required placeholder="example@gmail.com" maxlength="50"></div>
+                </label>
+
+                <label for="isenha"><span>Senha </span>
+                    <div><input type="password" name="senha" id="isenha" required placeholder="Min 8 digits" minlength="8"></div>
+                </label>
+
+                <label for="icsenha"><span>Confirmar</span>
+                    <div><input type="password" name="csenha" id="icsenha" required placeholder="Confirm Password" minlength="8"></div>
+                </label>
+
+                <div class="botoes">
+                    <a href="../index.html" target="_self" rel="prev" id="prev">VOLTAR</a>
+                    <input type="submit" value="ENVIAR">
+                </div>
+            </form>
+
+        
+    </main>
+
+    <footer><a href="https://br.freepik.com/fotos-gratis/cenas-de-guerra-crueis-pintura-digital_15174538.htm#query=call%20of%20duty&position=0&from_view=search&track=ais">Imagem de liuzishan</a> no Freepik</footer>
+</body>
+</html>

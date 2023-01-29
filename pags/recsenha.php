@@ -1,0 +1,1 @@
+Um link com a alteração de senha foi enviado para seu e-mail!
